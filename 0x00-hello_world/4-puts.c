@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-  *main-Print line of code using puts
+  *Main Value - 4-puts.c
   *
   */
 int main(void)
