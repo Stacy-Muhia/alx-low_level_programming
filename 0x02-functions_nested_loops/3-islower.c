@@ -6,9 +6,9 @@
   */
 int main(void)
 {
-	int c;
+	char c = 'a';
 
-	if (c >= 97 && c <= 122)
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
