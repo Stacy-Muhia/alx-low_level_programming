@@ -15,4 +15,5 @@ void jack_bauer(void)
 		c++;
 	for (d = 0; d <= 9)
 		d++;
+	_putchar('\n')
 }
