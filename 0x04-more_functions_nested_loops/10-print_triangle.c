@@ -12,6 +12,10 @@ void print_triangle(int size)
 	{
 		for (y = x; y <= size; y++)
 		{
+			_putchar(' ');
+		}
+		for (y = 1; y <= x; y++)
+		{
 			_putchar('#');
 		}
 		_putchar('\n');
