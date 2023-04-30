@@ -13,9 +13,10 @@ int main(void)
 	{
 		for (b = 1; b <= 9; b++)
 		{
-			putchar(a + '0');
-			putchar(b + '0');
+			if (b < a)
 			{
+				putchar(a);
+				putchar(b);
 				if (a != 8 || b != 9)
 				{
 					putchar(',');
