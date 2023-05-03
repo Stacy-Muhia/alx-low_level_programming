@@ -10,11 +10,11 @@ void print_array(int *a, int n)
 {
 	int ioa;
 
-	for (ioa = 0; ioa < nn; ioa++)
+	for (ioa = 0; ioa < n; ioa++)
 	{
-		printf("%d" , a[ioa];
+		printf("%d", (a[ioa]));
 		if (ioa != n - 1)
 			printf(",");
 	}
-	putchar('\n');
+	printf('\n');
 }
