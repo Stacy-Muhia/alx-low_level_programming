@@ -32,6 +32,7 @@ int main(int argc, char *argv[])
 		printf("0\n");
 		return (0);
 	}
+	sum = x + y;
 	printf("%d\n", sum);
 	return (0);
 }
