@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <string.h>
-#include <stdio.h>
+
 /**
   **_memset - fills memory with a constant byte
   *@s: memory area to be filled
@@ -10,7 +10,7 @@
   *
   *Return: pointer to the memory area s
   */
-char *_memset(char *s, char c, unsigned int n)
+char _memset(char *s, char c, unsigned int n)
 {
 	unsigned int x;
 
