@@ -6,10 +6,6 @@
  *print_all - function that prints anything
  *@format: list of types of arguments passed to the function
  *@...: The variable number of arguments to be printed
- *c: char
- *i: int
- *f: float
- *s: char * (if the string is NULL, print (nil) instead)
  */
 void print_all(const char * const format, ...)
 {
