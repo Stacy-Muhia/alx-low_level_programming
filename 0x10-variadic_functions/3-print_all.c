@@ -10,21 +10,21 @@
 void print_all(const char * const format, ...)
 {
 	va_list ar;
-	int i = 0;
+	int x = 0;
 	const char *str, *sr = "";
 
 	va_start(ar, format);
 
 	if (format)
 	{
-		while (format[i])
+		while (format[x])
 		{
-			switch (format[i])
+			switch (format[x])
 			{
 				case 'c':
 					printf("%s%c", sr, va_arg(ar, int));
 					break;
-				case 'i':
+				case 'x':
 					printf("%s%d", sr, va_arg(ar, int));
 					break;
 				case 'f':
@@ -38,11 +38,11 @@ void print_all(const char * const format, ...)
 						printf("(nil)");
 					break;
 				default:
-					i++;
+					x++;
 					continue;
 			}
 			sr = ", ";
-			i++;
+			x++;
 		}
 	}
 	printf("\n");
