@@ -1,11 +1,9 @@
 #include <stdio.h>
-#include <stddef.h>
 #include "lists.h"
 
 /**
   *print_listint - function used to print all elements of the listint_t list
   *@h: The pointer to the head of the list
-  *@n: integer
   *
   *Return: The number of nodes
   */
