@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * delete_dnodeint_at_index - functions to deletethe node at the index 
+ * delete_dnodeint_at_index - functions to deletethe node at the index
  * @head: The head of the list
  * @index: index to the node that should be deleted
  *
