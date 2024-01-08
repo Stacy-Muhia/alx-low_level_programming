@@ -1,25 +1,26 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 /**
-  *main - Entry point
-  *@argc: Number of command line arguments
-  *@argv: An array containing the program command line arguments
-  *
-  *Return: Always 0.(Success), else 1(Error)
-  */
+ *main-print sum of 2 numbers.
+ *@argc:number of commandline arguments.
+ *@argv:pointer to an array of commmand line arguments.
+ *Return:0-success, non-zero-fail.
+ */
+
 int main(int argc, char *argv[])
 {
-	int num1 = atoi(argv[1]);
-	int num2 = atoi(argv[2]);
-	int result = num1 * num2;
+	int sum;
+
+	if (argc == 3)
 	{
-		printf("%d\n", result);
+		sum = atoi(argv[1]) * atoi(argv[2]);
+		printf("%d\n", sum);
 	}
-	return (0);
-	if (argc < 3 || argc > 3)
+	else
 	{
 		printf("Error\n");
 		return (1);
 	}
+
+	return (0);
 }
